@@ -5,7 +5,7 @@ on:
 
 jobs:
   job1:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
     - name: checks-out your repository under $GITHUB_WORKSPACE
       uses: actions/checkout@v2
